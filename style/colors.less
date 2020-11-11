@@ -1,0 +1,49 @@
+.dark-themed {
+  --contrast: white;
+  --background: #1b1b1b;
+
+  --primary: #ffff8d;
+  --paper: #212121;
+
+  color: var(--contrast);
+}
+
+.light-themed {
+  --contrast: #212121;
+  --background: #ffff8d;
+
+  --primary: #212121;
+  --paper: #fff9c4;
+
+  color: var(--contrast);
+}
+
+.primary {
+  color: var(--primary);
+}
+
+.contrast {
+  color: var(--contrast);
+}
+
+.outlined {
+  border: 1px solid var(--contrast);
+}
+
+.clickable:hover {
+  filter: contrast(0.9);
+  backdrop-filter: contrast(0.9);
+}
+
+.paper {
+  background: var(--paper);
+}
+
+.greyed {
+  filter: opacity(0.6);
+}
+
+::placeholder {
+  color: var(--contrast);
+  filter: opacity(0.6);
+}

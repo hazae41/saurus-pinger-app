@@ -1,0 +1,41 @@
+.yspace16 {
+  height: 16px;
+}
+
+.xspace16 {
+  width: 16px;
+}
+
+.yspace8 {
+  height: 8px;
+}
+
+.xspace8 {
+  width: 8px;
+}
+
+.fullheight {
+  height: 100%;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.fullsize {
+  &:extend(.fullwidth);
+  &:extend(.fullheight);
+}
+
+.max1000 {
+  max-width: 1000px;
+}
+
+.max500 {
+  max-width: 500px;
+}
+
+.sized {
+  height: --size;
+  width: --size;
+}

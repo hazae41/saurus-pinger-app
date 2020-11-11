@@ -1,0 +1,1 @@
+export * from "https://deno.land/x/multisocket@1.1.1/client.ts"
